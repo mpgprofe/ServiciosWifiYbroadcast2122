@@ -13,7 +13,7 @@ import java.util.TimerTask;
 
 public class ServicioCrono extends Service {
     Timer temporizador = new Timer();
-    int INTERVALO = 100;
+    int INTERVALO = 10;
     static MainActivity mainActivity;
     Handler handler;
     float contador;
